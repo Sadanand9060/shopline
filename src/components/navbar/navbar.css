@@ -1,0 +1,49 @@
+.navbarContainer{
+    position:fixed;
+    z-index: 200;
+    margin-top: -5rem;
+    display: flex;
+    height: 5rem;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0rem 0.001rem 0.6rem gray;
+}
+
+.brandName{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: -0.5rem;
+}
+
+.navbarInput{
+    width: 15rem;
+    height: 2rem;
+    padding: 0rem 1rem 0rem 1rem;
+}
+
+.navbarOptions > a{
+    font-size: 1.5rem;
+    margin-right: 2rem;
+}
+
+.profileUtils {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profileUtils > a{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbarContainer  a{
+    text-decoration: none;
+    color: #000000;
+}

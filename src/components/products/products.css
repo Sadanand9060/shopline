@@ -1,0 +1,31 @@
+.productCategory{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    margin: 3rem 0rem 0rem 0rem;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.productCategory > div{
+    color: black;
+    border: 0.01rem solid black;
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    border-radius: 0.5rem;
+    margin: 0rem 0.5rem 0rem 0.5rem;
+}
+
+.productCategory > div:hover{
+    color: black;
+    border: 0.01rem solid black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.prodContainer{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    margin: 0rem 7rem 0rem 7rem;
+}

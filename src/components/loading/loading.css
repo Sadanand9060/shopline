@@ -1,0 +1,8 @@
+.skeletonCss{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    margin: 0rem 7rem 0rem 7rem;
+    margin-top: -2rem;
+}
+

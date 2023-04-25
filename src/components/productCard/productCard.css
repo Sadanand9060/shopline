@@ -1,0 +1,47 @@
+.productCard {
+  margin: 2rem 0.5rem 0rem 0.5rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  text-decoration: none;
+  color: black !important;
+  /* box-shadow: -0.15rem -0.15rem 1rem rgba(0, 0, 0, 0.25); */
+}
+
+.productCard:hover {
+  box-shadow: -0.5rem 0.5rem 1.15rem rgba(0, 0, 0, 0.35);
+  border: 0.001rem solid rgba(0, 0, 0, 0.3);
+  transform: scale(1.01);
+  transition-delay: 100ms;
+}
+
+.productCard > img {
+  width: auto;
+  height: 16rem;
+  border-radius: 0.5rem;
+}
+
+.cardDesc {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.prodPrice {
+  color: red;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.prodBuy {
+  margin: -0.5rem 0rem 0rem 0rem;
+  background-color: rgba(0, 0, 0, 0.9);
+  font-size: 1.25rem;
+  color: white;
+  width: 100%;
+  padding: 0.5rem;
+  align-items: center;
+}
+
+.prodBuy:hover {
+  background-color: black;
+}
